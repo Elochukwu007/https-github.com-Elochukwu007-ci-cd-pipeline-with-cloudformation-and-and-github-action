@@ -24,7 +24,7 @@ jobs:
            --capabilities CAPABILITY_NAMED_IAM \
            --parameter-overrides \
              S3BucketName=my-elo-static1-websit2e-bucket \
-           --region us-east-1
+           --region us-east-
 - name: Sync with S3 Bucket
   env:
     AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
